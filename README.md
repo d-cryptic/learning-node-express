@@ -63,3 +63,9 @@
 - Readable
 - Duplex
 - Transform
+
+## How Web Works
+
+### HTTP Request/ Response Cycle
+
+HTTP Messages -> Request <-> Data <-> Response -> Node/Express

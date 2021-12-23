@@ -1,6 +1,5 @@
 var http = require("http");
 var fs = require("fs");
-const { createSocket } = require("dgram");
 
 http
   .createServer(function (req, res) {
