@@ -69,3 +69,16 @@
 ### HTTP Request/ Response Cycle
 
 HTTP Messages -> Request <-> Data <-> Response -> Node/Express
+
+### HTTP Methods
+
+- GET - Read Data
+- POST - Insert Data
+- PUT - Update Data
+- DELETE - Delete Data
+
+### Resources
+
+- [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [MimeTypes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
+- Third Party Middleware - [Morgan](https://npmjs.org/package/morgan)
