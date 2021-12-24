@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const morgan = require("morgan");
 const logger = require("./logger");
 const authorize = require("./authorize");
 
@@ -14,7 +15,8 @@ const authorize = require("./authorize");
 // };
 
 // app.use("/api", logger);
-app.use([logger, authorize]);
+// app.use([logger, authorize]);
+app.use(morgan("tiny"));
 
 // req => middleware => res
 
